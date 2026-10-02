@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="1000" height="580">
+  <defs>
+    <clipPath id="heroClip">
+      <rect width="1000" height="580" rx="40" ry="40" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#heroClip)">
+    <!-- Background parking facility simulation -->
+    <rect width="1000" height="580" fill="#2d3f4a" />
+    <circle cx="800" cy="300" r="180" fill="#3a5160" />
+    <rect x="580" y="80" width="380" height="420" rx="20" fill="#24333c" />
+    
+    <!-- White organic notched card -->
+    <path d="
+      M 0 40
+      A 40 40 0 0 1 40 0
+      L 270 0
+      C 285 0 295 10 295 25
+      C 295 40 305 50 320 50
+      L 510 50
+      A 38 38 0 0 1 548 88
+      L 548 185
+      A 38 38 0 0 1 510 223
+      C 490 223 480 235 480 255
+      L 480 345
+      C 480 365 470 378 450 378
+      L 390 378
+      C 370 378 360 390 360 410
+      L 360 480
+      C 360 505 345 525 320 525
+      L 230 525
+      C 205 525 190 545 190 565
+      L 190 580
+      L 0 580
+      Z
+    " fill="#ffffff" />
+
+    <!-- Simulated text placement -->
+    <text x="50" y="40" font-family="sans-serif" font-size="13" font-weight="bold" fill="#516e7c">✦ Smart Parking Intelligence Platform</text>
+    <text x="50" y="110" font-family="sans-serif" font-size="44" font-weight="800" fill="#0b181c">Smarter Parking.</text>
+    <text x="50" y="165" font-family="sans-serif" font-size="44" font-weight="800" fill="#516e7c">Better Cities.</text>
+    <text x="50" y="235" font-family="sans-serif" font-size="16" fill="#58666d">Smart parking solutions designed to help parking</text>
+    <text x="50" y="260" font-family="sans-serif" font-size="16" fill="#58666d">authorities manage, monitor and optimize parking</text>
+    <text x="50" y="285" font-family="sans-serif" font-size="16" fill="#58666d">operations with real-time IoT intelligence.</text>
+
+    <!-- Simulated buttons -->
+    <rect x="50" y="400" width="160" height="48" rx="24" fill="#516e7c" />
+    <text x="80" y="430" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Request a Demo</text>
+    <rect x="225" y="400" width="160" height="48" rx="24" fill="#ffffff" stroke="#516e7c" stroke-width="2" />
+    <text x="255" y="430" font-family="sans-serif" font-size="14" font-weight="bold" fill="#516e7c">Explore Solutions</text>
+  </g>
+</svg>

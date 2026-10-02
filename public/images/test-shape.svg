@@ -1,0 +1,33 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560">
+  <defs>
+    <clipPath id="heroClip">
+      <rect width="1000" height="560" rx="40" ry="40" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#heroClip)">
+    <rect width="1000" height="560" fill="#2a3b45" />
+    <path d="
+      M 0 40
+      A 40 40 0 0 1 40 0
+      L 260 0
+      C 275 0 290 12 290 30
+      C 290 48 305 60 325 60
+      L 480 60
+      A 36 36 0 0 1 516 96
+      L 516 175
+      A 36 36 0 0 1 480 211
+      C 460 211 445 224 445 245
+      L 445 315
+      C 445 338 430 355 405 355
+      L 290 355
+      C 270 355 255 370 255 390
+      L 255 440
+      C 255 465 240 485 215 485
+      L 80 485
+      C 55 485 40 505 40 530
+      L 40 560
+      L 0 560
+      Z
+    " fill="#ffffff" />
+  </g>
+</svg>

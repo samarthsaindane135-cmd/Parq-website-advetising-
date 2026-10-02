@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #f6f9fb;
+    --foreground: #0b181c;
+    --card: #ffffff;
+    --card-foreground: #0b181c;
+    --popover: #ffffff;
+    --popover-foreground: #0b181c;
+    --primary: #516e7c;
+    --primary-foreground: #fcfcfc;
+    --secondary: #e5ecf1;
+    --secondary-foreground: #172428;
+    --muted: #dfe6eb;
+    --muted-foreground: #58666d;
+    --accent: #516e7c;
+    --accent-foreground: #fcfcfc;
+    --destructive: #e40014;
+    --destructive-foreground: #fcfcfc;
+    --border: #d2d8dd;
+    --input: #dfe6eb;
+    --ring: #516e7c;
+    --radius: 0.875rem;
+  }
+
+  .dark {
+    --background: #0d1315;
+    --foreground: #e9f0f5;
+    --card: #181e20;
+    --card-foreground: #e9f0f5;
+    --popover: #181e20;
+    --popover-foreground: #e9f0f5;
+    --primary: #627f8e;
+    --primary-foreground: #0d1315;
+    --secondary: #242a2d;
+    --secondary-foreground: #e9f0f5;
+    --muted: #242a2d;
+    --muted-foreground: #8a9095;
+    --accent: #627f8e;
+    --accent-foreground: #0d1315;
+    --destructive: #82181a;
+    --destructive-foreground: #e9f0f5;
+    --border: #2e3437;
+    --input: #2e3437;
+    --ring: #627f8e;
+  }
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  overflow-x: hidden;
+}
